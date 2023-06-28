@@ -6,10 +6,10 @@ export const isYtUrl = (url: string) => {
 };
 
 export const isLocalHost = window.location.hostname === 'localhost';
-
+//https://${window.location.hostname}
 export const host = isLocalHost
   ? 'http://localhost:4000'
-  : `https://${window.location.hostname}`;
+  : `https://youtubedownloader-6zmd.onrender.com`;
 
 export const getDownloadUrl = (videoId: string, format = 'mp4') =>
   `${host}/watch?v=${videoId}&format=${format}`;
