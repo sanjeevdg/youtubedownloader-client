@@ -46,7 +46,7 @@ export default function Navbar() {
                 href={`${
                   isLocalHost
                     ? 'http://localhost:3000'
-                    : 'https://youtubdle.com'
+                    : 'https://bucolic-moxie-f41430.netlify.app'
                 }`}
                 _hover={{ textDecoration: 'none', color: 'gray.500' }}
               >
